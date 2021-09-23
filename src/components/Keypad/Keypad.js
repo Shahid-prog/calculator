@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from './Keypad.module.css'
+import styles from './Keypad.module.css';
 
 
 const Keypad = () => {

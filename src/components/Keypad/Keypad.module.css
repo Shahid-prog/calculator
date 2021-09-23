@@ -8,6 +8,9 @@
     height: 85px;
     color : #FFFFFF;
     font-size: 36px;
+    font-family: inherit;
+    font-weight: inherit;
+    cursor: pointer;
 }
 
 .operand{

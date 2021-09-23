@@ -1,0 +1,6 @@
+body {
+    display: flex;
+    font-family: 'Roboto';
+    font-weight: lighter;
+    justify-content: center;
+}
