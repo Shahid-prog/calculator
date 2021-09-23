@@ -1,0 +1,19 @@
+.display {
+    width: 360px;
+    height: 220px;
+    left: 0px;
+    top: 0px;
+    background-color: rgb(133, 131, 131);
+    color: rgb(7, 7, 7);
+    text-align: right;
+}
+
+.expression{
+    font-size: 24px;
+    margin-top: 50px;
+}
+
+.result{
+    font-size: 48px;
+    margin-top: 73px;
+}
