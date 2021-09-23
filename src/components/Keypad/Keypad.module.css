@@ -1,0 +1,26 @@
+.row{
+    display : flex;
+    flex-direction : row;
+}
+
+.key {
+    width : 90px;
+    height: 85px;
+    color : #FFFFFF;
+    font-size: 36px;
+}
+
+.operand{
+    background-color: #1B1C1C;
+    border : 1px solid #F1F0F0;
+}
+
+.operator{
+    background-color: #6B56CC;
+    border : 1px solid #F1F0F0; 
+}
+
+.equals{
+    background-color: #F0C505;
+    border : 1px solid #F1F0F0; 
+}
