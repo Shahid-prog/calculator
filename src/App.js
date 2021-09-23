@@ -13,14 +13,16 @@ const App = () => {
         if(clickedButton.innerHTML === "="){
             evaluateResult()
         }else if(clickedButton.innerHTML === "del"){
-            setExpression(prevState => prevState.pop());
+            setExpression(prevState => prevState.slice(0,prevState.length-1));
+        }else if(clickedButton.innerHTML === "C"){
+            setExpression("");
+            setResult();
         }else{
             setExpression(prevState => prevState + clickedButton.innerHTML);
         }
     }
 
     const evaluateResult = () =>{
-        //alert(expression);
         setResult(evaluate(expression));
     }
 
